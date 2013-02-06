@@ -61,4 +61,4 @@ module.exports = (grunt) ->
     grunt.loadNpmTasks('grunt-contrib-nodeunit')
     grunt.loadNpmTasks('grunt-contrib-clean')
 
-    grunt.registerTask "default", ["coffee:rubyHaml", "jshint", "rubyHaml:test_html", "rubyHaml:test_js", "nodeunit", "clean"]
+    grunt.registerTask "default", ["clean", "coffee:rubyHaml", "rubyHaml:test_html", "rubyHaml:test_js", "nodeunit", "clean"]

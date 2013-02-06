@@ -4,10 +4,11 @@ Compile your HTML templates using the Ruby HAML command-line compiler
 
 ## WHAT!? WHY!?!?!?
 
-Because I like underscore, and underscore templates.  They come free
-with Backbone.  And Ruby's HAML treats them without abusing them.
-It's not a great solution, but it's better than trying to write yet
-another HAML parser.
+Because I like [underscore](http://underscorejs.org/), and underscore
+templates.  They come free with [Backbone](http://backbonejs.org/).
+And Ruby's HAML treats them without abusing them.  It's not a great
+solution, but it's better than trying to write yet another HAML
+parser.
 
 And before you get me started on Jade, or Mustache, or whatever:
 forget it.  Jade is a big learning curve for little reward, and the

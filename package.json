@@ -1,0 +1,54 @@
+{
+  "name": "grunt-ruby-haml",
+  "description": "HAML via the Ruby compiler for Grunt",
+  "version": "0.0.3",
+  "homepage": "https://github.com/elfsternberg/grunt-ruby-haml",
+  "author": {
+    "name": "Elf M. Sternberg",
+    "email": "elf.sternberg@gmail.com"
+  },
+  "contributors": [
+    {
+      "name": "Elf M. Sternberg",
+      "url": "https://github.com/elfsternberg"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/elfsternberg/grunt-ruby-haml.git"
+  },
+  "bugs": {
+    "url": "https://github.com/elfsternberg/grunt-ruby-haml/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/elfsternberg/grunt-ruby-haml/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "grunt.js",
+  "engines": {
+    "node": "*"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "dependencies": {
+    "grunt": "=0.4.0a",
+    "coffee-script": "~1.3.1"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.x",
+    "coffee-script": "~1.3.1",
+    "grunt-contrib-watch": "~0.1.4",
+    "grunt-contrib-nodeunit": "~0.1.1",
+    "grunt-contrib-jshint": "~0.1.0",
+    "grunt-contrib-clean": ">=0.4.0rc6",
+    "async": "~0.2.2",
+    "underscore": "~1.4.4",
+    "grunt-coffee": "git://github.com/elfsternberg/grunt-coffee.git"
+  },
+  "keywords": [
+    "gruntplugin"
+  ]
+}

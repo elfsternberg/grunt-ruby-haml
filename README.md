@@ -1,6 +1,6 @@
 # grunt-ruby-haml
 
-Compile your HTML templates using Ruby
+Compile your HTML templates using the Ruby HAML command-line compiler
 
 ## WHAT!? WHY!?!?!?
 

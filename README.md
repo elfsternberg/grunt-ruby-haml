@@ -40,7 +40,7 @@ Then add some configuration for the plugin like so:
 
     grunt.initConfig({
         ...
-        ruby-haml: {
+        rubyHaml: {
           app: {
             files: {
                 "public/index.html": "src/index.haml"
@@ -53,7 +53,7 @@ Then add some configuration for the plugin like so:
         ...
     });
 
-Then just run `grunt ruby-haml` and enjoy!
+Then just run `grunt rubyHaml` and enjoy!
 
 Ruby-HAML will, by default, generate HTML.  With the 'templatize'
 option set to True, it will instead spit out an underscore template

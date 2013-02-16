@@ -45,9 +45,9 @@ Then add some configuration for the plugin like so:
           app: {
             files: {
                 "public/index.html": "src/index.haml"
-            }
+            },
             options: {
-                templatize: False
+                templatize: false
             }
           }
         },

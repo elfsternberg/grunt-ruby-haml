@@ -29,7 +29,11 @@ grunt.loadNpmTasks('grunt-ruby-haml');
 
 ## Documentation
 
-You'll need to install `grunt-ruby-haml`:
+Make sure you have underscore installed:
+
+    npm install underscore
+    
+Then you'll need to install `grunt-ruby-haml`:
 
     npm install grunt-ruby-haml
 
@@ -45,9 +49,9 @@ Then add some configuration for the plugin like so:
           app: {
             files: {
                 "public/index.html": "src/index.haml"
-            }
+            },
             options: {
-                templatize: False
+                templatize: false
             }
           }
         },

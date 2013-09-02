@@ -15,6 +15,9 @@ module.exports = (grunt) ->
             args: [ "--unix-newlines", "--no-escape-attrs", "--double-quote-attributes", src ]
 
         grunt.util.spawn args, (err, result) ->
+            if err
+                grunt.log.error 'Error compiling ' + src
+                return done err
             [ext, result] = if options.templatize
                 [".js", "define(function() { return " + _.template(result.stdout).source + "});"]
             else

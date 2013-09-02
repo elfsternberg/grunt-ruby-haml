@@ -13,6 +13,10 @@
       };
       return grunt.util.spawn(args, function(err, result) {
         var dest, ext, _ref;
+        if (err) {
+          grunt.log.error('Error compiling ' + src);
+          return done(err);
+        }
         _ref = options.templatize ? [".js", "define(function() { return " + _.template(result.stdout).source + "});"] : ["html", result.stdout], ext = _ref[0], result = _ref[1];
         dest = destPath;
         destPath = (dest ? dest : path.dirname(src));
